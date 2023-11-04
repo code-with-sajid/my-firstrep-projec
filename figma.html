@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iEducate - Transforming online education</title>
+    <style>
+        *{
+          margin: 0;
+          padding: 0;  
+        }
+        .logo{
+            width: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* background-position: center; */
+        }
+        .logo img{
+            width: 35%;
+        }
+        .navbar{
+            display: flex;
+        }
+        .nav-list{
+
+            width: 50%;
+            display: flex;
+            align-items: center;
+            position: fixed;
+
+            
+        }
+    
+        .nav-list li{
+            list-style: none;
+            padding: 26px 30px;
+            
+        }
+    
+        .nav-list li a{
+            text-decoration: none;
+            color: white;
+             }
+
+        .nav-list li a:hover{
+            text-decoration: none;
+            color: pink;
+         }
+
+        .rightnav{ 
+            width: 50%;
+            text-align: right;
+            position:absolute; 
+            right: 20px;
+            top: 20px;
+            position: fixed;
+        }
+        #search{
+            padding: 5px;
+            font-size: 17px;
+            border: 2px solid grey;
+            border-radius: 9px;
+          }
+          .background{
+            width: 100%;
+            height: 100vh;
+            background: url('../img/premium_photo-1695758787352-90c6ad0cb516.webp');
+            background-size: cover;
+            background-position: center;
+            /* background-repeat: no-repeat; */
+            /* position: fixed; */
+            
+            
+            /* width: 100%; */
+            /* height: 100vh; */
+
+          }
+          .firstsection{
+            /* position: absolute;top: 150px; */
+            /* height: 100vh; */
+          }
+          .box-main{
+            /* display: flex; */
+            /* justify-content: center; */
+            /* align-items: center; */
+            color: white;
+            /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; */
+            /* max-width: 50%; */
+            /* margin: auto; */
+
+
+          }
+          .firstsection{
+            width: 80%;
+            display: flex;
+            /* flex-direction: row; */
+             /* justify-content:center ;   */
+
+             }  
+             .secondhalf{
+                /* width: 30%; */
+             }
+             .secondhalf img{
+            width: 10%;
+            border: 4px solid white;
+            border-radius: 150px;
+            display: block;
+            margin: auto;
+            position:absolute; 
+            top: 17px;
+             right: 376px;; 
+
+            
+
+            
+          }
+         
+          
+
+    </style>
+    
+    
+    
+</head>
+<body>
+<div >
+<nav class="navbar background">
+    <ul class="nav-list ">
+        <div class="logo"><img src="https://th.bing.com/th?id=OIP.WHlXXQohA9rkJ8HZdrvq9QHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.8&pid=3.1&rm=2" alt="logo"></div>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+        
+    </ul>
+    <div class="rightnav">
+        <input type="text" name="search" id="search">
+        <button class="btn btn-sm">search</button>
+    </div>
+    
+</nav>    
+</div>
+<section class="background firstsection">
+    <div class="box-main">
+        <div class="firsthalf">
+            <p class="tex-big">The future of Education is here</p>
+            <p class="tex-big">in this world of 7 billion people 
+                we need to educate all of them 
+                is the future of an educated world an the future of education is here 
+              </p>
+              <div class="button">
+                    <button class="btn">subscribe<button>
+                    <button class="btn">watch vedio<button>
+
+                    </div>
+
+    </div>
+</div>
+<div class="secondhalf"> 
+  <img src="https://th.bing.com/th?id=OIP.5EZRHGR0LgL2IWcQ511TkQHaF5&w=280&h=223&c=8&rs=1&qlt=90&o=6&dpr=1.8&pid=3.1&rm=2" alt="leptop image">
+</div>
+    
+    
+
+</section>
+    
+</body>
+</html>
